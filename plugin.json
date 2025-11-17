@@ -1,0 +1,6 @@
+{
+  "vendor": "pocketstore-io",
+  "name": "breadcrumb",
+  "type": "plugin",
+  "prio": 100
+}
