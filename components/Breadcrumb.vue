@@ -7,7 +7,7 @@
       </li>
       <li v-for="breadcrumb in breadcrumbs" :key="breadcrumb.id">
         <Fa :icon="['fas', breadcrumb.icon ?? 'question']" class="mr-3"/>
-        <a :href="'/de/' + breadcrumb.link" class="">{{ $t('breadcrumb.'+breadcrumb.slug)}}</a>
+        <a :href="'/de/' + breadcrumb.link" class="">{{ $t('breadcrumb.'+breadcrumb.code)}}</a>
       </li>
     </ul>
   </div>
